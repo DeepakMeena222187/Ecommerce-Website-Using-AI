@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -20,6 +20,7 @@ export default function Hero() {
           Shop Now
         </button>
       </motion.div>
+
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

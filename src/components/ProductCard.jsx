@@ -1,11 +1,11 @@
-import React from "react";
+"use client";
 import { motion } from "framer-motion";
 import { FaShoppingCart, FaHeart } from "react-icons/fa";
 
 export default function ProductCard({ product }) {
   return (
     <motion.div
-      className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:scale-105 transition-transform"
+      className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-transform"
       whileHover={{ scale: 1.05 }}
     >
       <img

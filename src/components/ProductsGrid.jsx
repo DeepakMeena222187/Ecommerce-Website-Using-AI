@@ -1,6 +1,5 @@
-import React from "react";
 import ProductCard from "./ProductCard";
-import { PRODUCTS } from "../data/products";
+import { PRODUCTS } from "@/data/products";
 
 export default function ProductsGrid() {
   return (
